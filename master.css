@@ -1,0 +1,204 @@
+.navbar{
+    display: flex;
+    background-color: #6F6AF7;
+    margin: auto;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+    box-sizing: border-box;
+    position:fixed;
+    top: 0px;
+    width: 100vw;
+}
+.logo{
+    font-family: 'Delius Unicase', cursive;
+    font-size: 44px;
+    width: 30%;
+}
+.nav-options{
+    width: 70%;
+}
+.nav-options ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-options ul li{
+    margin-right: 15px;
+    font-size: 23px;
+}
+
+.nav-options ul li select{
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+.nav-options ul li input{
+    border-radius: 10px;
+    padding: 10px 10px;
+    border: none;
+}
+#search{
+    margin-top: 5px;
+    margin-left: -100px;
+    height: 22px;
+}
+#hamburger{
+    height: 20px;
+}
+.banner{
+     display: flex;
+}
+.banner-left{
+    margin-top:25vh;
+    margin-left:20vh;
+    margin-right: 2vh;
+    border-radius: 20px;
+}
+.banner-right{
+    width: 750px;
+    margin-top: 25vh;
+    background: #E5D8FF;
+    border-radius: 20px;
+    border: 6px solid white;
+    box-shadow: 3px 5px 27px 0px rgba(0, 0, 0, 0.25) inset;
+}
+.banner-right p{
+    color: #6F7373;
+    font-family: DM Sans;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 45px;
+}
+.social_icon{
+    position: sticky;
+    top: 90px;
+    margin-top:27vh;
+    float: right;
+}
+.social_icon img{
+    height: 45px;
+    display: block;
+    width: fit-content;
+}
+.card_box{
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30vh;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    
+}
+
+.box{
+    width: 21%;
+    padding:10px 15px;
+    box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+    border-radius: 11px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
+.card_1{
+    background: #929DFF;
+}
+.card_2{
+    background: #734CF2;
+}
+.card_3{
+    background: #D288FF;
+}
+.card_4{
+    background: black;
+}
+
+.container{
+    background: #483EFF;
+    border-radius: 21px;
+    display: flex;
+    height: 70vh;
+    width: 168vh;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-evenly;
+    margin-bottom: 30vh;
+}
+.container_button{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: -150px;
+
+}
+.container_button button{
+    border-radius: 15px;
+    border-color: white;
+    color: white;
+    background-color: transparent;
+    padding: 19px;
+    font-weight: 700;
+    border-style: solid;
+    width: 190px;
+}
+#Active_Button{
+    background: #BCE0F6;
+    box-shadow: 0px 6px 35px 0px rgba(0, 0, 0, 0.39);
+    color: black;
+}
+.container_right{
+    border-radius: 19px;
+    background: #FFF;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: -190px;
+    height: 90%;
+    width: 60%;
+    padding-left: 35px;
+    padding-top: 25px;
+}
+.container_right h1{
+    padding-top: 20px;
+}
+.container_right h3{
+    padding-left: 25px;
+}
+.container_right button{
+    background-color: black;
+    border-radius: 4px;
+    color: white;
+    float: right;
+    margin-top: 15%;
+    margin-right: 30px;
+    font-weight: 400;
+    font-size: 14px; 
+    padding: 9px 19px 9px 19px;
+
+}
+.container_right button img{
+    height: 10px;
+}
+.help{
+    
+    border-radius: 100%;
+    right: 60px;
+    bottom: 20px;
+    height: 50px;
+    width: 50px;
+    
+   
+    position: fixed;
+}
+.help img{
+    height: 70px;
+    width: 70px;
+}
